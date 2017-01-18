@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800' rel='stylesheet' type='text/css'>
+
+    <title>Layout</title>
+    <link rel="stylesheet" media="screen" href="../assets/application-b003a2aed8000d18718b8545a3dbc91e74d9f512bac311de02fa9f621d546951.css" />
+    <script src="../assets/vendor/modernizr-8560f87d0bc4f137917740acabfc72f0d469565340a978cb6aad12c44b48093a.js"></script>
+    <script src="../assets/application-c98d44f2579d90a5543247901b7a56dd26df31b9e3ef0b7b90fb5f5eb9e19ef1.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="6xYqrWLT81TPwUyOjR58O7+djBaO9yORGRhNiWo6XuLhZQ+kHVo9/KDH4D4VjC4waovYbKko+0YYJk2NcZQunA==" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicons/favicon-8fd1ebdc0c613f27ab56adbf5ff477d2a03907ac77e43aa7679cda4a11ac6cd8.ico" />
+  </head>
+  <body>
+
+    <div class="bar-container ">
+
+  <div class="row ">
+    <div class="small-12 small-centered columns">
+
+      <nav class="top-bar " data-topbar role="navigation">
+
+        <ul class="title-area">
+          <li class="name top-bar-icon-link">
+              <a href="../index.html">
+                <i class="fi-home home-icon"></i>
+</a>          </li>
+          <li class="toggle-topbar menu-icon"><a href="vector_math.html#"><span></span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+
+            
+
+<ul class="right header-right">
+
+
+</ul>
+
+
+          <!-- Buttons right of the search bar should be added to this button group -->
+<ul class="left">
+
+
+      <li class="normal-link ">
+        <a href="../index.html">LAYOUT</a>
+      </li>
+
+
+
+
+
+
+</ul>
+
+        </section>
+
+      </nav>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+      <script src="../assets/course_page-28737d57aa1857fe96c212a126d98314b40666074355b149d51848a75b2b837e.js"></script>
+  <script src="../assets/offline_tools-cd84d6c5d61ed136223b4a93a34abde5fcbf41d4e79f732e58bd339889f84cfa.js"></script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <div class="row row-padding-top" data-equalizer>
+
+  
+
+    <div class="medium-3 columns hide-for-small sidebar" data-equalizer-watch>
+      <div class="sidebar-content">
+        <div class="open active">
+          <div class="spacer"></div>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 medium-9 columns" data-equalizer-watch>
+      <div class="row collapse">
+        <div class="small-12 small-centered columns">
+  <div class="default-panel margin-bottom shadow">
+
+   <div class="header shadow-down more-padding">
+      <h4>Vector Math</h4>
+    </div>
+    <div class="content more-padding light-background reader">
+      <h1 id="intro-to-vector-math">Intro to Vector Math</h1>
+
+<p>Welcome to our brief introduction to <strong>Vectors</strong> and the math you can do with them.</p>
+
+<p>A <b class="variable"><i class="pin bar vector"></i>Vector</b> in UE4 is a collection of 3 numbers labeled X, Y, and Z.</p>
+
+<p>In math notation, a <b class="variable"><i class="pin bar vector"></i>Vector</b> looks like:</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+   X \\
+   Y \\
+   Z
+  \end{bmatrix}
+\end{equation}</script>
+
+<p>As you’ve probably guessed, X, Y, and Z represent some point in 3D space.</p>
+
+<h2 id="vectors-vs-points">Vectors vs Points</h2>
+
+<p>For simplicity’s sake, we’re going to do the rest of the lesson with 2D vectors so that we can graph on a 2D plane. <strong>Everything that applies to 2D vectors applies to 3D vectors.</strong></p>
+
+<p>Let’s look at this 2D vector:</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+   1 \\
+   3
+  \end{bmatrix}
+\end{equation}</script>
+
+<p>If this vector was representing a <strong>Location</strong>, we’d plot it as <strong>Point</strong>:</p>
+
+<p><img alt="Point" class="not-zoomable small" src="../assets/learn_resources/misc/vector_math/point.png" /></p>
+
+<p>But if we plotted it as a <strong>Vector</strong>, it’d look like:</p>
+
+<p><img alt="Vector" class="not-zoomable small" src="../assets/learn_resources/misc/vector_math/vector.png" /></p>
+
+<p>As you can see, <strong>Vectors</strong> can simply represent a <strong>Location</strong> in the world, or they can represent a <strong>Direction</strong> and <strong>Distance</strong> from their <strong>Origin</strong>.</p>
+
+<p>Let’s work through some math now!</p>
+
+<h2 id="adding-vectors">Adding Vectors</h2>
+
+<p>When we add <strong>Vectors</strong>, we just add their components together like so:</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+   1 \\
+   3
+  \end{bmatrix}
+  +
+  \begin{bmatrix}
+   2 \\
+   1
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   1+2\\
+   3+1
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   3\\
+   4
+  \end{bmatrix}
+\end{equation}</script>
+
+<p>In a graph, it looks like you’re joining the vectors head-to-tail, or offsetting one of the vectors by the other:</p>
+
+<p><img alt="Vector Addition" class="not-zoomable small" src="../assets/learn_resources/misc/vector_math/vector_addition.png" /></p>
+
+<h4 id="ue4-example">UE4 Example:</h4>
+
+<p>Let’s say you want to offset an actor’s location by some amount. This is simple with vector addition:</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+    \text{Actor's Location}
+  \end{bmatrix}
+  +
+  \begin{bmatrix}
+   \text{Offset}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   \text{New Actor Location}
+  \end{bmatrix}
+\end{equation}</script>
+
+<h2 id="scaling-a-vector">Scaling a Vector</h2>
+
+<p>You can make a <strong>Vector</strong> longer or shorter by multiplying it by a number:</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+   1 \\
+   3
+  \end{bmatrix}
+  \times
+  2
+  =
+  \begin{bmatrix}
+   1 \times 2\\
+   3 \times 2
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   2\\
+   6
+  \end{bmatrix}
+\end{equation}</script>
+
+<p>In a graph, this looks like:</p>
+
+<p><img alt="Vector Scaling" class="not-zoomable small" src="../assets/learn_resources/misc/vector_math/vector_scaled.png" /></p>
+
+<h4 id="ue4-example-1">UE4 Example:</h4>
+
+<p>You want to move an asteroid towards the player at a speed of 5cm/tick. You have the <strong>Direction</strong> from the asteroid to the player.</p>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+   \text{Direction}
+  \end{bmatrix}
+  \times
+  5
+  =
+  \begin{bmatrix}
+   \text{Offset}
+  \end{bmatrix}
+\end{equation}</script>
+
+<script type="math/tex; mode=display">\begin{equation}
+  \begin{bmatrix}
+    \text{Astoids's Location}
+  \end{bmatrix}
+  +
+  \begin{bmatrix}
+   \text{Offset}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+   \text{New Asteroid Location}
+  \end{bmatrix}
+\end{equation}</script>
+
+<p>You must ensure that the length of your <strong>Direction</strong> vector is <strong>1</strong>, also called a <strong>Unit Vector</strong>. To do that, you have to <strong>Normalize</strong> the vector using the <b class="node ">Normalize</b> node.</p>
+
+<h2 id="more-learning">More Learning</h2>
+
+<p>This brief intro covered the basics you need for moving UE4 actors with math. There is so much more to learn, and all of it can be applied to your work in UE4.</p>
+
+<p>This <a href="https://www.mathsisfun.com/algebra/vectors.html" class="blue" target="_blank">Math is Fun</a> article covers more about vectors and contains links for even more learning.</p>
+
+    </div>
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="bottom-spacer"></div>
+  </body>
+</html>

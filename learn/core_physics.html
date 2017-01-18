@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800' rel='stylesheet' type='text/css'>
+
+    <title>Layout</title>
+    <link rel="stylesheet" media="screen" href="../assets/application-b003a2aed8000d18718b8545a3dbc91e74d9f512bac311de02fa9f621d546951.css" />
+    <script src="../assets/vendor/modernizr-8560f87d0bc4f137917740acabfc72f0d469565340a978cb6aad12c44b48093a.js"></script>
+    <script src="../assets/application-c98d44f2579d90a5543247901b7a56dd26df31b9e3ef0b7b90fb5f5eb9e19ef1.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fsL8n95rPlCaYo4wjUxdeoN5yseRZJKdj/RyZYKJGZt0sdmWoeLw+PVkIoAV3g9xVm+evba7SkqOynJhmSdp5Q==" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicons/favicon-8fd1ebdc0c613f27ab56adbf5ff477d2a03907ac77e43aa7679cda4a11ac6cd8.ico" />
+  </head>
+  <body>
+
+    <div class="bar-container ">
+
+  <div class="row ">
+    <div class="small-12 small-centered columns">
+
+      <nav class="top-bar " data-topbar role="navigation">
+
+        <ul class="title-area">
+          <li class="name top-bar-icon-link">
+              <a href="../index.html">
+                <i class="fi-home home-icon"></i>
+</a>          </li>
+          <li class="toggle-topbar menu-icon"><a href="core_physics.html#"><span></span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+
+            
+
+<ul class="right header-right">
+
+
+</ul>
+
+
+          <!-- Buttons right of the search bar should be added to this button group -->
+<ul class="left">
+
+
+      <li class="normal-link ">
+        <a href="../index.html">LAYOUT</a>
+      </li>
+
+
+
+
+
+
+</ul>
+
+        </section>
+
+      </nav>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+      <script src="../assets/course_page-28737d57aa1857fe96c212a126d98314b40666074355b149d51848a75b2b837e.js"></script>
+  <script src="../assets/offline_tools-cd84d6c5d61ed136223b4a93a34abde5fcbf41d4e79f732e58bd339889f84cfa.js"></script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <div class="row row-padding-top" data-equalizer>
+
+  
+
+    <div class="medium-3 columns hide-for-small sidebar" data-equalizer-watch>
+      <div class="sidebar-content">
+        <div class="open active">
+          <div class="spacer"></div>
+            <h4>
+    Physics
+    <a href="../index.html" class="right hidden-at-top detail">Back to menu</a>
+</h4>
+<hr>
+<ul>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-physics">Physics</a></li>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-simulate-physics">Simulate Physics</a></li>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-shooting-radial-forces">Shooting Radial Forces</a></li>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-slomo">SloMo</a></li>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-conveyor">Conveyor</a></li>
+  <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-gravity-gun">Gravity Gun</a>
+    <ul>
+      <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-picking-up-the-actor">Picking up the actor</a></li>
+      <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-launching-the-actor">Launching the actor</a></li>
+      <li><div class="section-progress-container">
+  <div class="section-progress"></div>
+</div>
+<a href="core_physics.html#physics-conclusion">Conclusion</a></li>
+    </ul>
+  </li>
+</ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 medium-9 columns" data-equalizer-watch>
+      <div class="row collapse">
+        <div class="small-12 small-centered columns">
+  <div class="default-panel margin-bottom shadow">
+
+   <div class="header shadow-down more-padding">
+      <h4>Lesson 5 - Physics</h4>
+    </div>
+    <div class="content more-padding light-background reader">
+      <div id="physics-physics" class="scrollspy-section">
+  <h2 class="hide" id="physics">Physics</h2>
+
+  <blockquote class="challenge">
+    <h3 id="download-the-starter-project">Download the Starter Project</h3>
+    <p>Layout uses one Master Starter Project. If you’ve downloaded it recently, chances are you don’t need to re-download it.</p>
+
+    <p><em>This tutorial requires that you’ve downloaded the starter project as of 4/27/16</em>:</p>
+
+    <ul>
+      <li><a href="https://github.com/LayoutVR/ToyBoxx/archive/master.zip" class="blue"><strong>Click here</strong></a> to download the Layout Master starter project.</li>
+      <li>Extract the zip folder.</li>
+      <li>Open up the <strong>Layout_ToyBoxx.uproject</strong> and <em>begin your adventure</em>!</li>
+    </ul>
+  </blockquote>
+
+  <p>In this lesson, we’ll experiment with physically enabled actors in our physics playground. Cannons, rockets, conveyors, balloons, dominoes - they’re all made possible with physics simulation.</p>
+
+  <p>Simulation offers incredible out of the box functionality. We can easily control the behavior of physically enabled actors and components through their public variables. Enabling physics is easy. Getting physics to “feel right” is an art, and effective use requires some care.</p>
+
+  <p>Later, we’ll build the <strong>Gravity Gun</strong>, a tool used to interact with physics objects. The gun is probably the most sophisticated scripting tutorial of the entire series. There are great opportunities to adapt and extend the gun to whatever end best fits your experiences.</p>
+
+  <ul>
+    <li>Open the <strong>Lessons &gt; Physics &gt; Phyics</strong> level</li>
+  </ul>
+
+  <p><img alt="Physics playground" class="not-zoomable" src="../assets/learn_resources/core_4/4.18.png" /></p>
+  <p class="text-center image-caption">The new physics level in your starter project will look different</p>
+
+  <p>The <strong>Physics</strong> level includes many physically enabled actors that you can interact with as <b class="blueprint">BP_PhysicsPlayer</b>. Some actors are directly interactable by collision with the player or other actors.</p>
+
+  <p><img alt="physics actors" class="zoomable" src="../assets/learn_resources/core_physics/physics_actors.png" /></p>
+
+  <p>Other actors like <b class="blueprint">BP_Cannon</b> are interactable via the <b class="blueprint">BPI_Physics_Interact</b> interface. <b class="blueprint">BP_Remote</b> and <b class="blueprint">BP_BlastingBox</b> allow the developer to add actors to an <strong>Interact With</strong> list from the details panel. When the player overlaps, the remote/box will attempt to call an interface function on each actor in the list.</p>
+
+  <p><img alt="bp remote" class="zoomable" src="../assets/learn_resources/core_physics/bp_remote.png" /></p>
+
+  <p>Take a minute to press <strong>Play</strong> and explore the level.</p>
+
+  <hr />
+
+</div>
+<div id="physics-simulate-physics" class="scrollspy-section">
+  <h2 id="simulate-physics">Simulate Physics</h2>
+
+  <p>In order to activate physics and use physics nodes, we have to tell an actor and/or component to simulate physics.</p>
+
+  <ul>
+    <li>To make an actor simulate physics, check the <strong>Simulate Physics</strong> box in the corresponding details panel.</li>
+  </ul>
+
+  <p>Unless otherwise specified, a force is applied to actors according to their mass. By default, mass is calculated as a function of mesh volume.</p>
+
+  <ul>
+    <li>To adjust an actor’s mass, check the <strong>Mass in Kg</strong> option, then edit the value.</li>
+  </ul>
+
+  <p><img alt="simulate physics" class="not-zoomable small" src="../assets/learn_resources/core_physics/physics_details.png" /></p>
+
+  <hr />
+
+</div>
+<div id="physics-shooting-radial-forces" class="scrollspy-section">
+  <h2 id="shooting-radial-forces">Shooting Radial Forces</h2>
+
+  <p>Let’s give the player a way to explode actors in the level.</p>
+
+  <p>We can start with a blueprint that fires a radial force impulse and destroys itself. We’ll spawn this actor from the player blueprint.</p>
+
+  <ul>
+    <li>Create a new actor blueprint called <b class="blueprint">BP_RadialImpulse</b></li>
+    <li>Add a <strong>Radial Force</strong> component
+      <ul>
+        <li>Set its <strong>Radius</strong> to <strong>1000</strong></li>
+        <li>Set its <strong>Impulse Strength</strong> to <strong>150,000</strong></li>
+        <li>Set its <strong>Force Strength</strong> to <strong>0</strong></li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><img alt="RadialForce component" class="not-zoomable small" src="../assets/learn_resources/core_4/4.19.png" /></p>
+
+  <p>Our <strong>Radial Force</strong> component is rigged to explode. Now we need to fire the impulse and destroy the actor.</p>
+
+  <ul>
+    <li>Open the Event Graph</li>
+    <li>Grab a reference to the <strong>Radial Force</strong> component</li>
+    <li>Pull a wire from <strong>Radial Force</strong> and place a <b class="node ">Fire Impulse</b> node.</li>
+    <li><b class="node event">BeginPlay<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Fire Impulse</b></li>
+    <li>Place a <b class="node ">Destroy Actor</b> node</li>
+    <li><b class="node ">Fire Impulse<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Destroy Actor</b></li>
+  </ul>
+
+  <p><img alt="BP_RadialImpulse" class="zoomable" src="../assets/learn_resources/core_4/4.20.png" /></p>
+
+  <p>Let’s create a new input action mapping for spawning <b class="blueprint">BP_RadialImpulse</b>.</p>
+
+  <ul>
+    <li>Open <strong>Settings &gt; Project Settings</strong></li>
+    <li>Select the <strong>Input</strong> submenu</li>
+    <li>Add a new <strong>Action Mapping</strong></li>
+    <li>Name it <strong>“PrimaryAction”</strong></li>
+    <li>Add <strong>Left Mouse Button</strong></li>
+    <li>Add <strong>Gamepad Right Trigger</strong></li>
+  </ul>
+
+  <p><img alt="BP_RadialImpulse" class="zoomable" src="../assets/learn_resources/core_4/4.200.png" /></p>
+
+  <p>Now we can use the new <b class="node event">InputAction PrimaryAction</b> event in our player blueprint.</p>
+
+  <ul>
+    <li>Open <b class="blueprint">BP_PhysicsPlayer</b></li>
+  </ul>
+
+  <blockquote class="challenge" id="challenge-4-05-00">
+    <h4 id="challenge">Challenge:</h4>
+    <p>Wire the <b class="node event">InputAction PrimaryAction</b> event to a line trace from the camera and spawn <b class="blueprint">BP_RadialImpulse</b> at the location of the trace hit.</p>
+
+    <p><img alt="Challenge Answer" class="zoomable" src="../assets/learn_resources/core_4/4.21.png" /></p>
+  </blockquote>
+
+  <p>Head over to the anvil pit and try your new ability. Can you feel the power?!</p>
+
+  <hr />
+
+</div>
+<div id="physics-slomo" class="scrollspy-section">
+  <h2 id="slomo">SloMo</h2>
+
+  <p>Our explosions would look much cooler in slow motion. Let’s create a new action mapping for a slo-mo super power.</p>
+
+  <ul>
+    <li>Open <strong>Settings &gt; Project Settings</strong></li>
+    <li>Select the <strong>Input</strong> submenu</li>
+    <li>Add a new <strong>Action Mapping</strong></li>
+    <li>Name it <strong>SloMo</strong></li>
+    <li>Add <strong>Left Shift</strong></li>
+    <li>Add <strong>Gamepad Left Shoulder</strong></li>
+  </ul>
+
+  <p><img alt="SloMo action input" class="zoomable" src="../assets/learn_resources/core_4/4.22.png" /></p>
+
+  <p>Enabling slow motion is actually quite easy. We just need to use a node called <b class="node ">Set Global Time Dilation</b>.</p>
+
+  <ul>
+    <li>Open <b class="blueprint">BP_PhysicsPlayer</b></li>
+    <li>Place the <b class="node event">InputAction SloMo</b> event</li>
+    <li>Place a <b class="node ">Set Global Time Dilation</b> with a <b class="variable"><i class="pin in float"></i>Time Dilation</b> of <strong>0.2</strong></li>
+    <li>Connect this to the <b class="node event"><i class="detail">SloMo &gt; </i>Pressed <i class="pin out execution"></i></b> execution output</li>
+    <li>Place a <b class="node ">Set Global Time Dilation</b> with a <b class="variable"><i class="pin in float"></i>Time Dilation</b> of <strong>1</strong></li>
+    <li>Connect this to the <b class="node event"><i class="detail">SloMo &gt; </i>Released <i class="pin out execution"></i></b> execution output</li>
+  </ul>
+
+  <p><img alt="SloMo using Global Time Dilation" class="zoomable" src="../assets/learn_resources/core_4/4.23.png" /></p>
+
+  <p>Test it out to feel <strong>THE POWER!</strong></p>
+
+  <hr />
+
+</div>
+<div id="physics-conveyor" class="scrollspy-section">
+  <h2 id="conveyor">Conveyor</h2>
+
+  <p>Let’s take a quick diversion from player super powers.</p>
+
+  <p>You might have noticed that our conveyors don’t actually move objects. We can write a new blueprint script inside of <b class="blueprint">BP_TutorialConveyor</b> to get physically enabled actors moving.</p>
+
+  <ul>
+    <li>Open <b class="blueprint">BP_TutorialConveyor</b>’s event graph.</li>
+  </ul>
+
+  <p>We need some way to determine which objects should be moved by <b class="blueprint">BP_TutorialConveyor</b>. A collision box will tell us when objects are within a reasonable distance of the conveyor belt.</p>
+
+  <ul>
+    <li>Add a new <strong>Box Collision</strong> component</li>
+    <li>Open the viewport</li>
+    <li>Set <strong>Scale</strong> to <strong>1.6, 3.0, 0.25</strong></li>
+    <li>Set <strong>Location</strong> to <strong>0.0, 0.0, 41.0</strong></li>
+  </ul>
+
+  <p><img alt="conveyor collision" class="zoomable" src="../assets/learn_resources/core_physics/conveyor_collision.png" /></p>
+
+  <p>Let’s add <b class="node event">OnComponentBeginOverlap</b> and <b class="node event">OnComponentEndOverlap</b> events for our collision box.</p>
+
+  <ul>
+    <li>Open the event graph.</li>
+    <li>Right-click <strong>Box</strong> in <strong>Components</strong> and select <strong>Add Event &gt; Add OnComponentBeginOverlap</strong></li>
+    <li>Right-click <strong>Box</strong> in <strong>Components</strong> and select <strong>Add Event &gt; Add OnComponentEndOverlap</strong></li>
+  </ul>
+
+  <p>We need to store all components that overlap our box in a new array variable.</p>
+
+  <ul>
+    <li>Add a new variable and name it <strong>“Components”</strong></li>
+    <li>In the details panel, set <strong>Variable Type</strong> to <strong>PrimitiveComponent &gt; Reference</strong></li>
+    <li>Select the array button</li>
+  </ul>
+
+  <video controls="" loop="" class="not-zoomable">
+  <source src="../assets/learn_resources/core_physics/components_variable.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+  <blockquote class="important">
+    <p>You may be wondering why we’re storing components instead of actors. This is because we apply forces to components and not actors.</p>
+  </blockquote>
+
+  <ul>
+    <li>Place a reference to <strong>Components</strong> in the graph</li>
+    <li>Pull a wire from <strong>Components</strong> and place an <b class="node ">Add</b> node</li>
+    <li><b class="node event">OnComponentBeginOverlap<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Add</b></li>
+    <li>
+      <p><b class="variable"><i class="detail">OnComponentBeginOverlap &gt; </i>Other Comp<i class="pin out connected object"></i></b><span class="connector object"></span><b class="variable"><i class="pin in connected object"></i>Add</b></p>
+    </li>
+    <li>Pull a wire from <strong>Components</strong> and add an <b class="node ">Remove</b> node.</li>
+    <li><b class="node event">OnComponentEndOverlap<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Remove</b></li>
+    <li><b class="variable"><i class="detail">OnComponentEndOverlap &gt; </i>Other Comp<i class="pin out connected object"></i></b><span class="connector object"></span><b class="variable"><i class="pin in connected object"></i>Remove</b></li>
+  </ul>
+
+  <p><img alt="add remove components" class="zoomable" src="../assets/learn_resources/core_physics/add_remove_components.png" /></p>
+
+  <p>Great! This is everything we need to add and remove components from the array.</p>
+
+  <p>Now we need to add a force to each component on <b class="node event">Tick</b>.</p>
+
+  <ul>
+    <li>Place <b class="node event">Tick</b> in the graph</li>
+    <li>Place a new reference to <strong>Components</strong> in the graph</li>
+    <li>Pull a wire from <strong>Components</strong> and add a <b class="node ">ForEachLoop</b> node.</li>
+    <li><b class="node event">Tick<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>ForEachLoop</b></li>
+  </ul>
+
+  <p>We need to cast <b class="variable">Array Element<i class="pin out object"></i></b> to a static mech component.</p>
+
+  <ul>
+    <li>Pull a wire from <b class="variable">Array Element<i class="pin out object"></i></b> and add a <b class="node ">Cast To StaticMeshComponent</b> node.</li>
+    <li><b class="node ">ForEachLoop<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Cast To StaticMeshComponent</b></li>
+  </ul>
+
+  <p><img alt="for each cast" class="zoomable" src="../assets/learn_resources/core_physics/for_each_cast.png" /></p>
+
+  <p>When the cast is successful, we should add a force to the component in the direction of conveyor belt movement. We can specify this direction with an <strong>Arrow</strong> component.</p>
+
+  <ul>
+    <li>Add a new <strong>Arrow</strong> component</li>
+    <li>Open the viewport</li>
+    <li>Set <strong>Rotation</strong> to <strong>0.0, 0.0, -90.0</strong></li>
+    <li>Set <strong>Location</strong> to <strong>0.0, 0.0, 70.0</strong></li>
+  </ul>
+
+  <p><img alt="conveyor arrow" class="zoomable" src="../assets/learn_resources/core_physics/conveyor_arrow.png" /></p>
+
+  <blockquote class="optional">
+    <p>The <strong>Arrow</strong> component is a useful tool for development. It will not show up in game unless otherwise specified.</p>
+  </blockquote>
+
+  <p>We’re nearly done! Let’s add our last function now.</p>
+
+  <ul>
+    <li>Pull a wire from <b class="variable"><i class="detail"> Cast To StaticMeshComponent &gt; </i>As Static Mesh Component<i class="pin out object"></i></b> and add an <b class="node ">Add Force</b> node.</li>
+    <li>Set <strong>Accel Change</strong> to <strong>True</strong> by checking the box</li>
+  </ul>
+
+  <p>Targeted components respond according to their mass when <strong>Accel Change</strong> is not set to true. Experiment with this variable later to see what effct this has on different components.</p>
+
+  <blockquote class="challenge">
+    <h4 id="challenge-1">Challenge:</h4>
+    <p>Set <strong>Force</strong> by multiplying <strong>Arrow</strong>’s forward vector with a scalar power value.</p>
+
+    <p><img alt="Challenge Answer" class="zoomable" src="../assets/learn_resources/core_physics/conveyor_challenge.png" /></p>
+  </blockquote>
+
+  <p>When you play the level, physically enabled objects should respond to <b class="blueprint">BP_TutorialConveyor</b>. Choo-choo! All aboard the physics train!</p>
+
+  <hr />
+
+</div>
+<div id="physics-gravity-gun" class="scrollspy-section">
+  <h2 id="gravity-gun">Gravity Gun</h2>
+
+  <p>Let’s pick up and launch physically enabled actors with the <strong>Gravity Gun</strong>. When complete, the gun will pick up actors when selected and fire them away from the player.</p>
+
+  <p>First create a new action mapping. This method will handle picking up and launching actors.</p>
+
+  <ul>
+    <li>Open <strong>Settings &gt; Project Settings</strong></li>
+    <li>Select the <strong>Input</strong> submenu</li>
+    <li>Add a new <strong>Action Mapping</strong></li>
+    <li>Name it <strong>“SecondaryAction”</strong></li>
+    <li>Add <strong>Right Mouse Button</strong></li>
+    <li>Add <strong>Gamepad Left Trigger</strong></li>
+  </ul>
+
+  <p><img alt="Gravity gun action input" class="zoomable" src="../assets/learn_resources/core_4/4.24.png" /></p>
+
+</div>
+<div id="physics-picking-up-the-actor" class="scrollspy-section sub-section">
+  <h3 id="picking-up-the-actor">Picking up the actor</h3>
+
+  <p>When we select an actor, we should snap it in front of the player.</p>
+
+  <ul>
+    <li>Open <b class="blueprint">BP_PhysicsPlayer</b></li>
+    <li>Add a new <strong>Scene</strong> component</li>
+    <li>Name it “<strong>SnapPoint</strong>”</li>
+    <li>Attach <strong>SnapPoint</strong> to <strong>Camera</strong></li>
+  </ul>
+
+  <video controls="" loop="" class="not-zoomable">
+  <source src="../assets/learn_resources/core_4/add_snappoint.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+  <ul>
+    <li>Position <strong>SnapPoint</strong> at <strong>[240, 0, -35]</strong></li>
+  </ul>
+
+  <p><strong>SnapPoint</strong> is now attached relative to the position of the player’s camera.</p>
+
+  <p>We can pick up physics actors with a <strong>PhysicsHandle</strong> component.</p>
+
+  <ul>
+    <li>Add a <strong>PhysicsHandle</strong> component</li>
+  </ul>
+
+  <p>The actors we pick up will be attahed relative to <strong>PhysicsHandle</strong>. This means that we need to update the location of <strong>PhysicsHandle</strong> everyframe.</p>
+
+  <blockquote class="challenge" id="challenge-4-06-00">
+    <h4 id="challenge-2">Challenge:</h4>
+    <p>On <b class="node event">Tick</b>, update the <strong>PhysicsHandle</strong> component’s location using <b class="node ">Set Target Location</b>. Set the location to <strong>SnapPoint</strong>’s world location.</p>
+
+    <p><img alt="Challenge Answer" class="zoomable" src="../assets/learn_resources/core_4/4.25.png" /></p>
+  </blockquote>
+
+  <p>With that done, we’re ready to attach selected physics actors to <strong>PhysicsHandle</strong>.</p>
+
+  <ul>
+    <li>Add our <b class="node event">InputAction SecondaryAction</b> event</li>
+    <li>Create a new function and call it <strong>“Pick Up Object”</strong></li>
+    <li><b class="node event">SecondaryAction<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Pick Up Object</b></li>
+  </ul>
+
+  <p><img alt="Pick Up Object on secondary action" class="zoomable" src="../assets/learn_resources/core_4/4.26.png" /></p>
+
+  <p>Like we’ve done so many times before, we need to trace from the player. In this case we only want to trace for physically enabled actors. We can do this with the <b class="node ">Line Trace For Objects</b> node.</p>
+
+  <ul>
+    <li>Open the <strong>Pick Up Object</strong> function</li>
+    <li>Add <b class="node ">Line Trace For Objects</b> and set up the usual math</li>
+    <li>Pull a wire from <b class="variable"><i class="pin in enum array"></i><i class="detail">LineTraceForObjects &gt; </i>ObjectTypes</b> and select <strong>Make Array</strong></li>
+    <li>Select <strong>PhysicsBody</strong> from the <b class="node green">Make Array</b> dropdown</li>
+  </ul>
+
+  <p><img alt="Line trace for physics bodies" class="zoomable" src="../assets/learn_resources/core_4/4.27.png" /></p>
+
+  <ul>
+    <li>Place a <b class="node gray">Branch</b> using the <b class="variable"><i class="detail">LineTraceForObjects &gt; </i>Return Value<i class="pin out bool"></i></b></li>
+    <li>Place a <b class="node green">Break Hit Result</b> connected to <b class="variable"><i class="detail">LineTraceForObjects &gt; </i>Out Hit<i class="pin out struct"></i></b></li>
+  </ul>
+
+  <p>We need to store the hit component in a new variable that we can reference later.</p>
+
+  <ul>
+    <li>Create a new <b class="variable"><i class="pin in object"></i>Primitive Component</b> variable named <strong>HeldPhysicsObject</strong></li>
+    <li>Place a <b class="node ">Set Held Physics Object</b> node</li>
+    <li><b class="node "><i class="detail">Branch &gt; </i>True<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Set Held Physics Object</b></li>
+    <li><b class="variable"><i class="detail">Break Hit Result &gt; </i>Hit Component<i class="pin out connected object"></i></b><span class="connector object"></span><b class="variable"><i class="pin in connected object"></i>Held Physics Object</b></li>
+  </ul>
+
+  <p><img alt="Set Held Physics Object" class="zoomable" src="../assets/learn_resources/core_4/4.28.png" /></p>
+
+  <ul>
+    <li>Place a <b class="node ">Grab Component (Physics Handle)</b> node</li>
+    <li><b class="variable">Held Physics Object<i class="pin out connected object"></i></b><span class="connector object"></span><b class="variable"><i class="pin in connected object"></i><i class="detail">Grab Component &gt; </i>Component</b></li>
+    <li>Set <b class="variable"><i class="pin in vector"></i><i class="detail">Grab Component &gt; </i>Grab Location</b> equal to the <b class="variable">Held Physics Object<i class="pin out object"></i></b>’s world location.</li>
+  </ul>
+
+  <p><img alt="Grab component" class="zoomable" src="../assets/learn_resources/core_4/4.29.png" /></p>
+
+  <p>Fantastic! Your gun can now pick up targeted actors.</p>
+
+</div>
+<div id="physics-launching-the-actor" class="scrollspy-section sub-section">
+  <h3 id="launching-the-actor">Launching the actor</h3>
+
+  <p>Let’s launch picked up physics actors. We can determine whether or not an actor is currently picked up with a boolean variable.</p>
+
+  <ul>
+    <li>Create a new <b class="variable"><i class="pin bar bool"></i>Boolean</b> variable called <strong>IsGunEngaged</strong></li>
+    <li>Add a <strong class="node">Set IsGunEngaged</strong> node at the end of the <strong>Pick Up Object</strong> function.</li>
+    <li>Set it to <strong>True</strong> by checking the box</li>
+  </ul>
+
+  <p><img alt="Set is gun engaged" class="zoomable" src="../assets/learn_resources/core_4/4.30.png" /></p>
+
+  <p>When we fire <b class="node event">SecondaryAction</b>, <b class="variable">IsGunEngaged<i class="pin out bool"></i></b> will tell us if we should <b class="node ">Pick Up Object</b> or launch an existing actor.</p>
+
+  <ul>
+    <li>Open the Event Graph</li>
+    <li>Insert a <b class="node gray">Branch</b> between <b class="node event">SecondaryAction</b> and <b class="node ">Pick Up Object</b></li>
+    <li><b class="variable">Is Gun Engaged<i class="pin out connected bool"></i></b><span class="connector bool"></span><b class="variable"><i class="pin in connected bool"></i><i class="detail">Branch &gt; </i>Condition</b></li>
+    <li><b class="node "><i class="detail">Branch &gt; </i>False<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Pick Up Object</b></li>
+  </ul>
+
+  <p><img alt="branch on is gun engaged" class="zoomable" src="../assets/learn_resources/core_4/4.31.png" /></p>
+
+  <ul>
+    <li>Create a new function and call it <strong>“Launch Object”</strong></li>
+    <li><b class="node "><i class="detail">Branch &gt; </i>True<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node "><i class="pin execution in"></i>Launch Object</b></li>
+  </ul>
+
+  <p><img alt="launch when is gun engaged is true" class="zoomable" src="../assets/learn_resources/core_4/4.32.png" /></p>
+
+  <ul>
+    <li>Open the <b class="node ">Launch Object</b> function</li>
+  </ul>
+
+  <p>To launch an object, we must first release it, then add a physics impulse.</p>
+
+  <ul>
+    <li>Place a <b class="node ">Release Component (PhysicsHandle)</b> node</li>
+    <li>Place a <b class="node ">Get Held Physics Object</b></li>
+    <li>Pull a wire from <b class="variable">Held Physics Object<i class="pin out object"></i></b> and place an <b class="node ">Add Impulse</b> node.</li>
+  </ul>
+
+  <blockquote class="challenge" id="challenge-4-07-00">
+    <h4 id="challenge-3">Challenge:</h4>
+    <p>Our impulse should be in the direction of the camera’s forward vector and have a sufficiently large magnitude.</p>
+
+    <p><img alt="Challenge Answer" class="zoomable" src="../assets/learn_resources/core_4/4.33.png" /></p>
+  </blockquote>
+
+  <p>We need to reset our variables after releasing the held actor.</p>
+
+  <ul>
+    <li>Place a <strong>Set Held Physics Object</strong> with no input (this sets it to <strong>NULL</strong>)</li>
+    <li>Place a <strong>Set Is Gun Engaged</strong> with an empty check box (setting it to <strong>false</strong>)</li>
+  </ul>
+
+  <p><img alt="reset gravity gun variables" class="zoomable" src="../assets/learn_resources/core_4/4.34.png" /></p>
+
+</div>
+<div id="physics-conclusion" class="scrollspy-section sub-section">
+  <h3 id="conclusion">Conclusion</h3>
+
+  <p>Whew - that was a lot of scripting! You now have a fully functional gravity gun that picks up and launches physics objects. You also have a generalizable workflow for selecting and manipulating actors in a scene.</p>
+
+  <p>There are many other useful physics nodes we didn’t cover in this tutorial. Explore all that UE4 has to offer <a href="https://docs.unrealengine.com/latest/INT/BlueprintAPI/Physics/index.html" class="blue" target="_target">here</a>. Just remember that these functions only effect objects that <strong>simulate physics</strong>.</p>
+</div>
+
+    </div>
+
+  </div>
+</div>
+
+        <div class="small-12 small-centered columns">
+  <div class="default-panel margin-bottom shadow">
+
+   <div class="header shadow-down more-padding">
+      <h4>Project 5 - Physics</h4>
+    </div>
+    <div class="content more-padding light-background reader">
+      <p>In this assignment, you’ll create a new experience that incorporates physics. Your experience should be developed in response to one of the following themes:</p>
+
+<ul>
+  <li><strong>Larger than life</strong></li>
+  <li><strong>Out of sight, out of mind</strong></li>
+  <li><strong>Like a flash</strong></li>
+</ul>
+
+<p>Your submission must meaningfully include physically enabled actors and/or components. The submission should demonstrate your understanding of physics in UE4.</p>
+
+<p>Consider extending the gravity gun with additional behavior. Also consider using a player perspective other than first person.</p>
+
+    </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="bottom-spacer"></div>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800' rel='stylesheet' type='text/css'>
+
+    <title>Layout</title>
+    <link rel="stylesheet" media="screen" href="../assets/application-b003a2aed8000d18718b8545a3dbc91e74d9f512bac311de02fa9f621d546951.css" />
+    <script src="../assets/vendor/modernizr-8560f87d0bc4f137917740acabfc72f0d469565340a978cb6aad12c44b48093a.js"></script>
+    <script src="../assets/application-c98d44f2579d90a5543247901b7a56dd26df31b9e3ef0b7b90fb5f5eb9e19ef1.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="PerHLe8+ZTXgorMRrNOStLNh3kNlwvHtC1j9Aqf1iDM3meIkkLernY+kH6E0QcC/ZneKOUIdKToKZv0GvFv4TQ==" />
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicons/favicon-8fd1ebdc0c613f27ab56adbf5ff477d2a03907ac77e43aa7679cda4a11ac6cd8.ico" />
+  </head>
+  <body>
+
+    <div class="bar-container ">
+
+  <div class="row ">
+    <div class="small-12 small-centered columns">
+
+      <nav class="top-bar " data-topbar role="navigation">
+
+        <ul class="title-area">
+          <li class="name top-bar-icon-link">
+              <a href="../index.html">
+                <i class="fi-home home-icon"></i>
+</a>          </li>
+          <li class="toggle-topbar menu-icon"><a href="variables.html#"><span></span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+
+            
+
+<ul class="right header-right">
+
+
+</ul>
+
+
+          <!-- Buttons right of the search bar should be added to this button group -->
+<ul class="left">
+
+
+      <li class="normal-link ">
+        <a href="../index.html">LAYOUT</a>
+      </li>
+
+
+
+
+
+
+</ul>
+
+        </section>
+
+      </nav>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+      <script src="../assets/course_page-28737d57aa1857fe96c212a126d98314b40666074355b149d51848a75b2b837e.js"></script>
+  <script src="../assets/offline_tools-cd84d6c5d61ed136223b4a93a34abde5fcbf41d4e79f732e58bd339889f84cfa.js"></script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <div class="row row-padding-top" data-equalizer>
+
+  
+
+    <div class="medium-3 columns hide-for-small sidebar" data-equalizer-watch>
+      <div class="sidebar-content">
+        <div class="open active">
+          <div class="spacer"></div>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 medium-9 columns" data-equalizer-watch>
+      <div class="row collapse">
+        <div class="small-12 small-centered columns">
+  <div class="default-panel margin-bottom shadow">
+
+   <div class="header shadow-down more-padding">
+      <h4>Variables</h4>
+    </div>
+    <div class="content more-padding light-background reader">
+      <h1 id="variables">Variables</h1>
+
+<blockquote class="important">
+  <p><strong>Variables</strong> are used to <strong>store data</strong>.</p>
+</blockquote>
+
+<p>We want to store data all the time when programming. In games, we often find ourselves storing a player’s <strong>score</strong>, a character’s <strong>name</strong>, an actor’s <strong>location</strong>, a game <strong>state</strong>, etc.</p>
+
+<p>The thing about data is that it comes in many forms. Data can be numbers, words, vectors, and even references to other actors. In order to handle all these types of data, variables must have a specific <strong>type</strong>. The type of variable tells you what type of data it stores.</p>
+
+<h2 id="types-of-variables">Types of Variables</h2>
+
+<ul>
+  <li><b class="variable"><i class="pin bar bool"></i>Boolean</b> variables are either <strong>True</strong> or <strong>False</strong>.</li>
+  <li><b class="variable"><i class="pin bar int"></i>Integer</b> variables hold <strong>Whole Number</strong> values.</li>
+  <li><b class="variable"><i class="pin bar float"></i>Float</b> variables hold <strong>Decimal Number</strong> values.</li>
+  <li><b class="variable"><i class="pin bar string"></i>String</b> variables hold <strong>Words</strong> and <strong>strings of text</strong>.</li>
+  <li><b class="variable"><i class="pin bar vector"></i>Vector</b> variables hold <strong>Vectors</strong> which are a set of 3 <b class="variable"><i class="pin bar float"></i>Float</b> values.</li>
+  <li><b class="variable"><i class="pin bar object"></i>Object</b> variables hold references to <strong>Actors</strong> and other types of objects.</li>
+</ul>
+
+<p>These are the most commonly used types of variables in UE4. Depending on what data you are trying to store, you’ll want to choose the right type of variable.</p>
+
+<p>The types of variables of the examples given above:</p>
+
+<ul>
+  <li>A <strong>Score</strong> should be stored in an <b class="variable"><i class="pin bar int"></i>Integer</b> or a <b class="variable"><i class="pin bar float"></i>Float</b> variables.</li>
+  <li>A <strong>Name</strong> should be stored in a <b class="variable"><i class="pin bar string"></i>String</b> variable.</li>
+  <li>A <strong>Location</strong> should be stored in a <b class="variable"><i class="pin bar vector"></i>Vector</b> variable.</li>
+  <li>A simple <strong>State</strong> like On/Off should be stored in a <b class="variable"><i class="pin bar bool"></i>Boolean</b> variable, while a more complex one may require an <b class="variable"><i class="pin bar int"></i>Integer</b> variable.</li>
+</ul>
+
+<h2 id="creating-a-variable">Creating a Variable</h2>
+
+<p>Variables are created inside of blueprints, and thus are associated with that blueprint. For example, a player’s <strong>Score</strong> would be stored in the player blueprint.</p>
+
+<p>To create the <b class="variable">Score<i class="pin out int"></i></b> variable:</p>
+
+<ul>
+  <li>Open the <strong>+ Add New</strong> menu in the <strong>My Blueprint</strong> panel of your blueprint</li>
+  <li>Select <strong>Variable</strong></li>
+  <li>Name the new variable</li>
+  <li>In the <strong>Details</strong> panel, change its type to <b class="variable"><i class="pin bar int"></i>Integer</b> or <b class="variable"><i class="pin bar float"></i>Float</b> using the <strong>Variable Type</strong> dropdown</li>
+</ul>
+
+<video controls="" loop="" class="not-zoomable">
+  <source src="../assets/learn_resources/misc/create_variable.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+<p>Now we can use the new variable in our code!</p>
+
+<h2 id="using-a-variable">Using a Variable</h2>
+
+<p>When dealing while data, we’re either trying to <strong>get</strong> the data, or <strong>set</strong> the data.</p>
+
+<p>When <strong>Getting</strong> data, we want to use it for some reason. Let’s say we want to print our <b class="variable">Score<i class="pin out int"></i></b> when the game starts.</p>
+
+<p>We first have to set up the nodes:</p>
+
+<ul>
+  <li><b class="node event">BeginPlay<i class="pin execution out"></i></b><span class="connector execution"></span><b class="node"><i class="pin execution in"></i>Print String</b></li>
+</ul>
+
+<p>Then we have to <strong>Get</strong> the <b class="variable">Score<i class="pin out int"></i></b> data.</p>
+
+<ul>
+  <li>Drag the variable from the sidebar into the event graph.</li>
+  <li>Select <strong>Get</strong></li>
+  <li>Connect it to the <b class="variable"><i class="pin in string"></i><i class="detail">Print String &gt; </i>In String</b></li>
+</ul>
+
+<video controls="" loop="" class="not-zoomable">
+  <source src="../assets/learn_resources/misc/get_variable.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+<p>Now we know how to <strong>Get</strong> the variable’s data in order to use it. Let’s work through <strong>Setting</strong> the variable to update it’s data.</p>
+
+<p>Let’s say we want to <strong>add 1</strong> to our score every time the <b class="node event">ActorBeginOverlap</b> event fires.</p>
+
+<p>In order to do this, we have to:</p>
+
+<ul>
+  <li><strong>Get</strong> our <b class="variable">Score<i class="pin out int"></i></b></li>
+  <li><strong>Add 1</strong> to it using an <b class="node ">Integer + Integer</b> node</li>
+  <li><strong>Set</strong> the <b class="variable">Score<i class="pin out int"></i></b> with the new value</li>
+</ul>
+
+<video controls="" loop="" class="not-zoomable">
+  <source src="../assets/learn_resources/misc/set_variable.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>You now know:</p>
+
+<ul>
+  <li>What types of variables hold what kind of data</li>
+  <li>How to <strong>Get</strong> the value of a variable</li>
+  <li>How to <strong>Set</strong> the value of a variable</li>
+</ul>
+
+<p>You will use <strong>Variables</strong> all the time when programming. The best way to get comfortable with them is to keep creating and using them when needed.</p>
+
+    </div>
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+
+  </div>
+
+
+    <div class="bottom-spacer"></div>
+  </body>
+</html>
